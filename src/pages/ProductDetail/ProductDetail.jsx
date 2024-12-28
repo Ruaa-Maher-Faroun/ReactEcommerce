@@ -1,6 +1,6 @@
 import React from 'react'
 import { useParams } from 'react-router-dom'
-import UseFetch from '../../CustomHooks/useFetch/UseFetch.jsx';
+import UseFetch from '../../CustomHooks/useFetch/UseFetch';
 import Loader from '../../components/Loader/Loader';
 import ProductCaption from '../../components/ProductCaption/ProductCaption';
 import ProductImages from '../../components/ProductImges/ProductImages';
@@ -13,11 +13,13 @@ export default function ProductDetail() {
   if(isLoading){
     return <Loader />;
   }
+  if(error){
+    return <div className="alert danger
+    alert-danger">{error}</div>
+  }
   return (
     <section className='product-detail'>
       <div className="container">
-      {error ? <div className="alert danger
-    alert-danger">{error}</div> : 
     <>
    
 <div className="row py-5">
@@ -34,7 +36,7 @@ export default function ProductDetail() {
     <Reviews reviews={data.reviews}/>
   </div>
 </div>
-</>}
+</>
       </div>
     </section>
   )
