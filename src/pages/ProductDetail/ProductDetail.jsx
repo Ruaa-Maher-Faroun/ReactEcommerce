@@ -1,10 +1,10 @@
 import React from 'react'
 import { useParams } from 'react-router-dom'
-import UseFetch from './../../CustomHooks/useFetch/UseFetch';
-import Loader from './../../components/Loader/Loader';
-import ProductCaption from './../../components/ProductCaption/ProductCaption';
-import ProductImages from './../../components/ProductImges/ProductImages';
-import Reviews from './../../components/Reviews/Reviews';
+import UseFetch from '../../CustomHooks/useFetch/UseFetch';
+import Loader from '../../components/Loader/Loader';
+import ProductCaption from '../../components/ProductCaption/ProductCaption';
+import ProductImages from '../../components/ProductImges/ProductImages';
+import Reviews from '../../components/Reviews/Reviews';
 
 export default function ProductDetail() {
   const {id} = useParams();
