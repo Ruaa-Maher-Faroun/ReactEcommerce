@@ -1,5 +1,5 @@
 import React from 'react'
-import UseFetch from './../../CustomHooks/useFetch/UseFetch'
+import {useFetch} from './../../CustomHooks/useFetch/UseFetch'
 import Loader from './../Loader/Loader';
 import Product from './../Product/Product';
 import Pagination from './../Pagination/Pagination';
@@ -7,7 +7,7 @@ import Pagination from './../Pagination/Pagination';
 export default function Products({productsURL,pageName}) {
 
 
-    const { data, error, isLoading } = UseFetch(productsURL);
+    const { data, error, isLoading } = useFetch(productsURL);
 
 
     if (isLoading) return <Loader />

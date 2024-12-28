@@ -7,7 +7,6 @@ import linkedinIcon from "../../assets/icons/Icon-linkedin.svg";
 import qrCode from "../../assets/QrCode.png";
 import androidStore from "../../assets/androidstore.png";
 import appleStore from "../../assets/applestore.png";
-import copyright from "../../assets/icons/icon-copyright.png";
 import { faCopyright } from '@fortawesome/free-regular-svg-icons';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 const Footer = () => {
