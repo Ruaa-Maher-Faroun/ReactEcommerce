@@ -1,6 +1,4 @@
-import React, { useState } from 'react'
-import useFetch from '../../CustomHooks/useFetch/UseFetch'
-
+import React, { useState } from 'react';
 export default function Pagination({data}) {
     const [curPage,setCurPage] = useState(1);
     // const {data} = useFetch('https://dummyjson.com/products?limit=8&skip=0');

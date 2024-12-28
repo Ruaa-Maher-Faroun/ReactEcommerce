@@ -1,13 +1,9 @@
-import React from 'react'
-import useFetch from '../../CustomHooks/useFetch/UseFetch'
-import Loader from '../Loader/Loader';
+import React from 'react';
 import Product from '../Product/Product';
 import Pagination from '../Pagination/Pagination';
-import Products from '../Products/Products';
 
 export default function Categories({ categoryName, category, data }) {
-    console.log(data);
-    console.log(category);
+
     const products = data.products.filter((product) => category.some((cat) => product.category.includes(cat.toLowerCase()))
     );
     console.log(products);

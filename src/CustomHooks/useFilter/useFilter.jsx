@@ -1,6 +1,3 @@
-import React from 'react'
-import useFetch from '../useFetch/UseFetch';
-import Loader from '../../components/Loader/Loader';
 
 export default function useFilter(data,keywords) {
  

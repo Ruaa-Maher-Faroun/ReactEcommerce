@@ -3,12 +3,13 @@ import { useParams } from 'react-router-dom';
 import Products from '../../components/Products/Products';
 import CustomizedCategories from '../CustomizedCategories/CustomizedCategories';
 import useCategoryFilter from '../../CustomHooks/useCategoryFilter/useCategoryFilter';
-import useFetch from '../../CustomHooks/useFetch/UseFetch';
+// import useFetch from '';
 import Loader from '../../components/Loader/Loader';
+import UseFetch from '../../CustomHooks/useFetch/UseFetch';
 
 
 export default function ShowProductCategories() {
-      const {data, error,isLoading} = useFetch('https://dummyjson.com/products/categories')    
+      const {data, error,isLoading} = UseFetch('https://dummyjson.com/products/categories')    
       if(isLoading){
           return <Loader />;
       }

@@ -10,7 +10,6 @@ export default function useCategoryFilter(data) {
     
     for( const cat in categories){
 
-        
         allCategories.push(useFilter(data,categories[cat]));
         
         
