@@ -3,7 +3,7 @@ import iconSend from '../../assets/icons/icon-send.svg';
 import facebookIcon from "../../assets/icons/Icon-Facebook.svg";
 import twitetrIcon from "../../assets/icons/Icon-Twitter.png";
 import instagramIcon from "../../assets/icons/icon-instagram.svg";
-import linkedinIcon from "../../assets/icons/Icon-linkedin.svg";
+import linkedinIcon from "../../assets/icons/Icon-Linkedin.svg";
 import qrCode from "../../assets/QrCode.png";
 import androidStore from "../../assets/androidstore.png";
 import appleStore from "../../assets/applestore.png";
