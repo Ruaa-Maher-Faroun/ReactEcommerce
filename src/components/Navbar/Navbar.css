@@ -1,0 +1,11 @@
+
+nav li,ul{
+    margin: 0;
+}
+.search-nav{
+    border: none;
+    background-color: #eee;
+}
+.search-form{
+    background-color: #eee;
+}

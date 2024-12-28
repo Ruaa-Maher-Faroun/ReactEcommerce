@@ -1,0 +1,32 @@
+.footer {
+    background-color:#000000;
+    color: #fff;
+    text-transform: capitalize;
+}
+.footer-rows{
+    padding: 50px 0;
+    border-bottom:  1px solid rgba(255, 255, 255,0.5);
+}
+a{
+    color:#fff
+}
+
+li{
+    margin: 15px 0;
+}
+
+.emailsub {
+    background-color:#000000;
+}
+.email-subscrib {
+    width:65%;
+}
+.textSmall{
+    font-size: 0.85rem;
+}
+
+.copy-right,
+.copy-right-icon
+{
+    color: rgba(255, 255, 255,0.5);
+}
