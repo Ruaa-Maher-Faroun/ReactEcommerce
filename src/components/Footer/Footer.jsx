@@ -1,12 +1,12 @@
 import './Footer.css';
-import iconSend from '../../assets/icons/icon-send.svg';
-import facebookIcon from "../../assets/icons/Icon-Facebook.svg";
-import twitetrIcon from "../../assets/icons/Icon-Twitter.png";
-import instagramIcon from "../../assets/icons/Icon-instagram.svg";
-import linkedinIcon from "../../assets/icons/Icon-linkedin.svg";
-import qrCode from "../../assets/QrCode.png";
-import androidStore from "../../assets/androidstore.png";
-import appleStore from "../../assets/applestore.png";
+import {iconSend} from '../../assets/icons/icon-send.svg';
+import {facebookIcon} from "../../assets/icons/Icon-Facebook.svg";
+import {twitetrIcon} from "../../assets/icons/Icon-Twitter.png";
+import {instagramIcon} from "../../assets/icons/Icon-instagram.svg";
+import {linkedinIcon} from "../../assets/icons/Icon-linkedin.svg";
+import {qrCode} from "../../assets/QrCode.png";
+import {androidStore} from "../../assets/androidstore.png";
+import {appleStore} from "../../assets/applestore.png";
 import { faCopyright } from '@fortawesome/free-regular-svg-icons';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 const Footer = () => {
