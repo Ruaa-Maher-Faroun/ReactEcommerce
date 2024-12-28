@@ -1,14 +1,14 @@
 import React from 'react'
 import Category from '../../components/Category/Category'
 import GetIcon from '../../components/GetIcon/GetIcon';
-import {useFetch} from '../../CustomHooks/useFetch/UseFetch';
+import UseFetch from '../../CustomHooks/useFetch/UseFetch';
 import Loader from '../../components/Loader/Loader';
 import Product from '../../components/Product/Product';
 
 export default function CustomizedCategories({categories,category,allCategories}) {
     
     const keyword = category.charAt(0).toUpperCase()+category.slice(1);
-    const{data,error,isLoading} = useFetch('https://dummyjson.com/products?limit=0');
+    const{data,error,isLoading} = UseFetch('https://dummyjson.com/products?limit=0');
     if(isLoading) return <Loader />;
     
     let products=[];
