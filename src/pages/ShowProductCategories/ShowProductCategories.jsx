@@ -4,7 +4,7 @@ import Products from '../../components/Products/Products';
 import CustomizedCategories from '../CustomizedCategories/CustomizedCategories';
 import useCategoryFilter from '../../CustomHooks/useCategoryFilter/useCategoryFilter';
 import Loader from '../../components/Loader/Loader';
-import UseFetch from '../../CustomHooks/useFetch/UseFetch';
+import UseFetch from '../../CustomHooks/useFetch';
 
 
 export default function ShowProductCategories() {
