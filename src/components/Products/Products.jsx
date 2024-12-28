@@ -1,13 +1,13 @@
 import React from 'react'
-import {useFetch} from './../../CustomHooks/useFetch/UseFetch'
-import Loader from './../Loader/Loader';
-import Product from './../Product/Product';
-import Pagination from './../Pagination/Pagination';
+import UseFetch from '../../CustomHooks/useFetch/UseFetch'
+import Loader from '../Loader/Loader';
+import Product from '../Product/Product';
+import Pagination from '../Pagination/Pagination';
 //'https://dummyjson.com/products'
 export default function Products({productsURL,pageName}) {
 
 
-    const { data, error, isLoading } = useFetch(productsURL);
+    const { data, error, isLoading } = UseFetch(productsURL);
 
 
     if (isLoading) return <Loader />
