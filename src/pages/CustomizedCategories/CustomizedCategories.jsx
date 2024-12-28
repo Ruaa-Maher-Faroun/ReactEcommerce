@@ -49,7 +49,7 @@ export default function CustomizedCategories({categories,category,allCategories}
 
     
         <div className="cards row w-100 gap-5  mx-auto">
-            {products.length === 0 ? <h2 className='alert alert-success'>There is no products</h2>:products.map((product)=> <Product product={product}/>)}
+            {products.length === 0 ? <h2 className='alert alert-success'>There is no products</h2>:products.map((product,i)=> <Product key={i} product={product}/>)}
         </div>
     }
     </div>
