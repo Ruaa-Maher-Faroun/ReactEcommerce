@@ -33,9 +33,6 @@ export default function CustomizedCategories({categories,category,allCategories}
                  products.push(...d)
             });
         
-            console.log(products);
-            
-
         }
       
 

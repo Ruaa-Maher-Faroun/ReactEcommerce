@@ -10,7 +10,7 @@ export default function ProductCaption({data}) {
       <p>{data.description}</p>
       <h4 >Price: <span className='price'>${data.price}</span></h4>
       <span>Tags: </span>
-        {data.tags.map((tag)=> <span className='badge bg-primary me-2'>{tag}</span>)}
+        {data.tags.map((tag,i)=> <span key={i} className='badge bg-primary me-2'>{tag}</span>)}
         <Rating rating={data.rating} />
      <div className="btns mt-5 d-flex gap-3 align-items-center">
      <button className='btn btn-dark'>Add to cart</button>

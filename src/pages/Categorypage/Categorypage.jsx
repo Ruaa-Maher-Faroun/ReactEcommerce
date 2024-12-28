@@ -13,7 +13,7 @@ export default function Categorypage() {
             return <Loader />;
         } 
         const { allCategories, categoriesNames,categories } = useCategoryFilter(data);
-        console.log(categoriesNames[0]);
+       
   return (
     <div className='container'>
         <div className="row cards">

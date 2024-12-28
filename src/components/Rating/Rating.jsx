@@ -6,7 +6,7 @@ export default function Rating({rating}) {
   return (
     <div className="rating">
               { Array.apply(0, Array(Math.floor(rating))).map((x,i)=>{
-                return <FontAwesomeIcon icon={faStar} style={{color:"#facf19"}}/>
+                return <FontAwesomeIcon key={i} icon={faStar} style={{color:"#facf19"}}/>
               })
             }
             {rating - Math.floor(rating) !== 0 ?  <FontAwesomeIcon icon={faStarHalf} style={{color:"#facf19"}}/>

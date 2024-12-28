@@ -9,7 +9,7 @@ import Reviews from '../../components/Reviews/Reviews';
 export default function ProductDetail() {
   const {id} = useParams();
   const {data,error,isLoading} = useFetch(`https://dummyjson.com/products/${id}`)
-  console.log(data);
+ 
   if(isLoading){
     return <Loader />;
   }
