@@ -1,8 +1,8 @@
-import Category from '../../components/Category/Category'
+import Category from './../../components/Category/Category'
 import useCategoryFilter from '../../CustomHooks/useCategoryFilter/useCategoryFilter';
-import UseFetch from '../../CustomHooks/useFetch/UseFetch';
-import Loader from '../../components/Loader/Loader';
-import GetIcon from '../../components/GetIcon/GetIcon';
+import UseFetch from './../../CustomHooks/useFetch/UseFetch';
+import Loader from './../../components/Loader/Loader';
+import GetIcon from './../../components/GetIcon/GetIcon';
 import {  faListCheck } from '@fortawesome/free-solid-svg-icons'
 
 export default function Categorypage() {

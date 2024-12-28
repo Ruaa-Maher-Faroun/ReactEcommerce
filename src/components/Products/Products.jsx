@@ -1,8 +1,8 @@
 import React from 'react'
-import UseFetch from '../../CustomHooks/useFetch/UseFetch'
-import Loader from '../Loader/Loader';
-import Product from '../Product/Product';
-import Pagination from '../Pagination/Pagination';
+import UseFetch from './../../CustomHooks/useFetch/UseFetch'
+import Loader from './../Loader/Loader';
+import Product from './../Product/Product';
+import Pagination from './../Pagination/Pagination';
 //'https://dummyjson.com/products'
 export default function Products({productsURL,pageName}) {
 

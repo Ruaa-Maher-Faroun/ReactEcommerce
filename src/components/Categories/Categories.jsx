@@ -1,6 +1,6 @@
 import React from 'react';
-import Product from '../Product/Product';
-import Pagination from '../Pagination/Pagination';
+import Product from './../Product/Product';
+import Pagination from './../Pagination/Pagination';
 
 export default function Categories({ categoryName, category, data }) {
 
