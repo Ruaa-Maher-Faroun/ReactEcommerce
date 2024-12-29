@@ -1,5 +1,3 @@
-import React from 'react'
-
 export default function GetCategoryName() {
     const categories = {
         women: ["Women", "Tops"],

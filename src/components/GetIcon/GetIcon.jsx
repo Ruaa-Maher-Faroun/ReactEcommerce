@@ -1,4 +1,4 @@
-import React from 'react'
+
 import { faCar, faCircleChevronDown, faHouse, faLaptop, faListCheck, faPerson, faPersonDress, faWandMagicSparkles } from '@fortawesome/free-solid-svg-icons'
 
 export default function GetIcon() {

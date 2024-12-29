@@ -1,14 +1,14 @@
 import Category from '../../components/Category/Category'
 import useCategoryFilter from '../../CustomHooks/useCategoryFilter/useCategoryFilter';
-import UseFetch from '../../CustomHooks/useFetch/UseFetch';
 import Loader from '../../components/Loader/Loader';
 import GetIcon from '../../components/GetIcon/GetIcon';
 import {  faListCheck } from '@fortawesome/free-solid-svg-icons'
+import useFetch from '../../CustomHooks/useFetch/UseFetch';
 
 export default function Categorypage() {
         const icons = GetIcon();
         
-        const {data, error,isLoading} = UseFetch('https://dummyjson.com/products/categories')    
+        const {data, error,isLoading} = useFetch('https://dummyjson.com/products/categories')    
         if(isLoading){
             return <Loader />;
         } 

@@ -4,9 +4,7 @@ import useFilter from '../useFilter/useFilter';
 export default function useCategoryFilter(data) {
    
     const {categories,categoriesNames} = GetCategoryName();
-    const allCategories = [];
-    const excludedKeywords = [];
- 
+    const allCategories = []; 
     
     for( const cat in categories){
 

@@ -1,6 +1,5 @@
 import React from 'react'
 import useCategoryFilter from '../../CustomHooks/useCategoryFilter/useCategoryFilter';
-import './CategoryList.css';
 import { Link } from 'react-router-dom';
 export default function CategoryList({data}) {
 
