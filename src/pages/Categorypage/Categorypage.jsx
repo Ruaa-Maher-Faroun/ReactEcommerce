@@ -3,7 +3,7 @@ import useCategoryFilter from '../../CustomHooks/useCategoryFilter/useCategoryFi
 import Loader from '../../components/Loader/Loader';
 import GetIcon from '../../components/GetIcon/GetIcon';
 import {  faListCheck } from '@fortawesome/free-solid-svg-icons'
-import useFetch from '../../CustomHooks/useFetch/UseFetch';
+import useFetch from '../../CustomHooks/useFetch/useFetch';
 
 export default function Categorypage() {
         const icons = GetIcon();
