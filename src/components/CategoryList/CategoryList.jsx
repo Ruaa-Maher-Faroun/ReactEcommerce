@@ -9,7 +9,7 @@ export default function CategoryList({data}) {
     
     return (
         // 
-        <ul className="list-group list-group-flush d-md-flex flex-row flex-wrap d-md-block">
+        <ul className="list-group list-group-flush d-md-flex flex-row flex-wrap d-lg-block">
                           <li className='border-0 list-group-item m-0'>
 
                                     <Link to='/products' className=' btn p-2 text-dark'>All</Link>
