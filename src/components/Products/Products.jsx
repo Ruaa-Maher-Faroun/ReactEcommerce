@@ -2,7 +2,7 @@ import React from 'react';
 import Loader from '../Loader/Loader';
 import Product from '../Product/Product';
 // import Pagination from '../Pagination/Pagination';
-import useFetch from '../../CustomHooks/useFetch/UseFetch';
+import useFetch from '../../CustomHooks/useFetch/useFetch';
 //'https://dummyjson.com/products'
 export default function Products({productsURL,pageName}) {
 

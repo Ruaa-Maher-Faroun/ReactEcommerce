@@ -4,7 +4,7 @@ import Loader from '../../components/Loader/Loader';
 import ProductCaption from '../../components/ProductCaption/ProductCaption';
 import ProductImages from '../../components/ProductImges/ProductImages';
 import Reviews from '../../components/Reviews/Reviews';
-import useFetch from '../../CustomHooks/useFetch/UseFetch';
+import useFetch from '../../CustomHooks/useFetch/useFetch';
 
 export default function ProductDetail() {
   const {id} = useParams();

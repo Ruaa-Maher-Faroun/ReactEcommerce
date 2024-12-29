@@ -3,7 +3,7 @@ import Category from '../../components/Category/Category'
 import GetIcon from '../../components/GetIcon/GetIcon';
 import Loader from '../../components/Loader/Loader';
 import Product from '../../components/Product/Product';
-import useFetch from '../../CustomHooks/useFetch/UseFetch';
+import useFetch from '../../CustomHooks/useFetch/useFetch';
 
 export default function CustomizedCategories({categories,category,allCategories}) {
     
