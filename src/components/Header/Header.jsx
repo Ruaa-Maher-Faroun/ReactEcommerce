@@ -13,7 +13,7 @@ export default function Header() {
     {error ? <div className="alert alert-danger">{error}</div>: ""}
     <div className="container">
         <div className="row">
-            <div className='col-2 border-end p-0'>
+            <div className=' col-md-12 col-lg-2 border-sm-0 border-end p-0 '>
                 <CategoryList data={data} />
             </div>
             <HeaderImg />

@@ -23,11 +23,11 @@ export default function ProductDetail() {
     <>
    
 <div className="row py-5">
-  <div className="col-5 d-flex">
+  <div className="col-12 col-md-8 col-lg-5 d-flex flex-column flex-md-row">
     
 <ProductImages data={data} />
   </div>
-  <div className="col-5">
+  <div className="col-12 col-md-8 col-lg-5 my-5 my-md-0">
  <ProductCaption  data={data} />
   </div>
 </div>

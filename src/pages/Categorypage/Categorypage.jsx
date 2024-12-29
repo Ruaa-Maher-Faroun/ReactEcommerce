@@ -16,7 +16,7 @@ export default function Categorypage() {
        
   return (
     <div className='container'>
-        <div className="row cards">
+        <div className="row cards flex-wrap justify-content-center justify-content-lg-start">
             <Category icon={faListCheck} key={-1}  name={"All"}/>
             {categoriesNames.map((categoriesName,i) => <Category icon={icons[categoriesName.toLowerCase()]} key={i}  slug={categoriesName} name={categoriesName}/>)}
         </div>

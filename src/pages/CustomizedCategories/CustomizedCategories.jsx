@@ -40,15 +40,15 @@ export default function CustomizedCategories({categories,category,allCategories}
     <section className="products bg-light ">
 
     <div className='container py-5'>
-        <h2 className='mb-3 text-capitalize'>{keyword}</h2>
-        <div className="row cards">
+        <h2 className='mb-3 text-capitalize text-center text-xl-start'>{keyword}</h2>
+        <div className="row cards w-100 gap-5  mx-auto justify-content-center justify-content-xl-start">
             {cats.map((cat,i) => <Category icon={icons[category]} key={i}  name={cat.slug}/>)}
         </div>
         {error ? <div className="alert danger
     alert-danger">{error}</div> : 
 
     
-        <div className="cards row w-100 gap-5  mx-auto">
+        <div className="cards row w-100 gap-5  mx-auto justify-content-center justify-content-xl-start">
             {products.length === 0 ? <h2 className='alert alert-success'>There is no products</h2>:products.map((product,i)=> <Product key={i} product={product}/>)}
         </div>
     }

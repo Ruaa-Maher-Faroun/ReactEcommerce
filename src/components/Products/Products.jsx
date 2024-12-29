@@ -14,12 +14,12 @@ export default function Products({productsURL,pageName}) {
     return (
         <section className="products bg-light ">
             <div className="container py-5 ">
-                    <h2 className="mb-3 text-capitalize ">{pageName.split("-").join(" ")}</h2>
+                    <h2 className="mb-3 text-capitalize  text-center text-xl-start">{pageName.split("-").join(" ")}</h2>
                     
                     {error ? <div className="alert danger
     alert-danger">{error}</div> : 
     <>
-                <div className="cards row w-100 gap-5  mx-auto">
+                <div className="cards row w-100 gap-5  mx-auto justify-content-center justify-content-xl-start">
 
                         {data.products.length === 0 ? <h2 className='alert alert-success'>There is no products</h2>:data.products.map(product => <Product key={product.id} product={product} />)}
                     </div>

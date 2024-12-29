@@ -3,7 +3,7 @@ import React from 'react';
 export default function ProductImages({data}) {
   return (
     <>
-    <div className="other-imgs d-flex flex-column ">
+    <div className="other-imgs d-flex justify-content-center justify-content-md-start flex-row flex-md-column  ">
     {data.images.map((img,i) => {
         return <img key={i} src={img} alt="" className={`border ${i==0? "border-dark": ""} me-2 rounded mb-2`} style={{width: "100px",
             height: "100px",objectFit:"contain"}}/>;

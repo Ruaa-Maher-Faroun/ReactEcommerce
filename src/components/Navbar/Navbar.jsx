@@ -9,7 +9,7 @@ const Navbar = ()=> {
         <nav className="navbar p-4 navbar-expand-lg bg-body-tertiary
         ">
   <div className="container d-flex justify-content-between">
-    <div className="title">
+    <div className="title mb-3 mb-md-0 ">
         <Link className="navbar-brand" to="/">Shop</Link>
     <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
       <span className="navbar-toggler-icon"></span>
@@ -37,10 +37,10 @@ const Navbar = ()=> {
     </div>
     </div>
 
-    <div className="nav-actions d-flex align-items-center">
-        <div className="form  me-5 col-10">
+    <div className="nav-actions d-flex flex-wrap flex-md-nowrap gap-3 gap-md-0 align-items-center">
+        <div className="form  me-0 me-md-1 me-lg-2 me-xl-5 col-10">
             <form className="d-flex align-items-center px-3 py-2 rounded search-form" role="search">
-                <input className="form-control me-2 search-nav  p-0" type="search" placeholder="What are you looking for?" aria-label="Search" />
+                <input className="form-control me-0 me-lg-2 search-nav  p-0" type="search" placeholder="What are you looking for?" aria-label="Search" />
                 <FontAwesomeIcon icon={faMagnifyingGlass} />
             </form>
         </div>
